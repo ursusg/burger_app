@@ -1,0 +1,63 @@
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+
+ul {
+  display: inline-block;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: white;
+}
+
+/* Form for creating burger */
+.create-form {
+  text-align: center;
+}
+
+/* For each side's headers */
+h2 {
+  text-align: center;
+  color: antiquewhite;
+}
+
+/* Un-eaten side */
+#leftSide {
+  display: inline;
+  background: black;
+}
+
+/* Eaten side */
+#rightSide {
+  display: inline-block;
+  margin-left: 25em;
+  background: black;
+}
+
+/* Form group */
+#addBurgerTitle {
+  background: green;
+}
+
+/* Entire body of page */
+body {
+  background-image: url("https://www.publicdomainpictures.net/pictures/130000/velka/yellow-orange-background.jpg");
+}

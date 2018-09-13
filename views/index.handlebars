@@ -1,0 +1,32 @@
+<h1>BURGER TIME</h1>
+
+<h2 id="leftSide">"Fresh" burgers</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#unless eaten}}
+      {{> burgers/burger-block eaten=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<h2 id="rightSide">Inhaled burgers</h2>
+
+<ul>
+  {{#each burgers}}
+    {{#if eaten}}
+      {{> burgers/burger-block eaten=false}}
+    {{/if}}
+  {{/each}}
+</ul>
+
+<h2 id="addBurgerTitle">Add a Burger</h2>
+<form class="create-form">
+
+  <div class="form-group">
+    <label for="">Burger</label>
+    <input type="text" id="burger" name="name">
+  </div>
+
+  <button type="submit">Add Burger</button>
+</form>
